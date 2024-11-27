@@ -1,0 +1,5 @@
+trash/
+pretrained/
+single_checkpoint/
+checkpoint/
+__pycache__/

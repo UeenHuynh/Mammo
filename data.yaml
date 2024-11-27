@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['architectural_distorsion', 'asymmetry', 'benign', 'lymph_node', 'mass', 'microcalcification']
+
+roboflow:
+  workspace: taipei-medical-university-jdz4k
+  project: cars-mdmym
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/taipei-medical-university-jdz4k/cars-mdmym/dataset/1
